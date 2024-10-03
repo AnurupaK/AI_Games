@@ -46,7 +46,7 @@ vercel.json
 
 3. Create a `.env` file in the root directory and add your Gemini API key:
    ```plaintext
-   GEMINI_API_KEY=your_api_key_here
+   GOOGLE_API_KEY=your_api_key_here
    ```
 
 ## 🖥️ Compatibility
