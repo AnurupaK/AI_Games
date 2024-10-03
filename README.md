@@ -69,6 +69,10 @@ To deploy the project on **Vercel**, follow the instructions in the [Vercel Docu
 https://github.com/user-attachments/assets/d02d05ad-1af2-46de-96f2-1883fc84af01
 
 
+https://github.com/user-attachments/assets/9d856294-272d-46ff-bd43-487c9c5d9f17
+
+
+
 ## 💬 Feedback
 
 I hope you enjoy playing these AI-enhanced games! If you have any feedback or suggestions, feel free to reach out.
