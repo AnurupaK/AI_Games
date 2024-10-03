@@ -1,6 +1,6 @@
 # 🎮 AI Games
 
-Welcome to the **AI Games** project! This project features classic games like **Rock, Paper, Scissors** and **Hangman**, enhanced with AI capabilities. The AI is powered by **Gemini-1.5-Flash**, allowing it to generate words and play alongside you in a dynamic and interactive way!
+Welcome to the **AI Games** project! This project features two classic games: **Rock, Paper, Scissors** and **Hangman**, enhanced with AI capabilities. The AI is powered by **Gemini-1.5-Flash**, allowing it to generate words and play alongside you in a dynamic and interactive way!
 
 ## 🛠️ Project Structure
 
