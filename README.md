@@ -65,12 +65,7 @@ To deploy the project on **Vercel**, follow the instructions in the [Vercel Docu
 
 ## DEMO
 
-
-https://github.com/user-attachments/assets/d02d05ad-1af2-46de-96f2-1883fc84af01
-
-
-https://github.com/user-attachments/assets/9d856294-272d-46ff-bd43-487c9c5d9f17
-
+https://github.com/user-attachments/assets/afe245c0-4e92-47de-83b9-8b7b837a5b2c
 
 
 ## 💬 Feedback
