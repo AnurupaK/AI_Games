@@ -1,6 +1,6 @@
 # 🎮 AI Games
 
-Welcome to the **AI Games** project! This project features four classic games: **Rock, Paper, Scissors**,**Hangman**,**Love Calculator** and **Riddles**, enhanced with AI capabilities. The AI is powered by **Gemini-1.5-Flash**, allowing it to generate words and play alongside you in a dynamic and interactive way!
+Welcome to the **AI Games** project! This project features four classic games: **Rock-Paper-Scissors**,**Hangman**,**Love Calculator** and **Riddles**, enhanced with AI capabilities. The AI is powered by **Gemini-1.5-Flash**, allowing it to generate words and play alongside you in a dynamic and interactive way!
 
 ## 🛠️ Project Structure
 
@@ -55,7 +55,7 @@ vercel.json
 
 ## 🎮 How to Play
 
-- Launch the application, and choose among **Rock, Paper, Scissors** , **Hangman**, **Love Calculator** or **Riddles**.
+- Launch the application, and choose among **Rock-Paper-Scissors** , **Hangman**, **Love Calculator** or **Riddles**.
 - The AI will dynamically generate words and play against you!
 - Enjoy a fun and interactive experience with the AI!
 
