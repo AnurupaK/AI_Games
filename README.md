@@ -55,7 +55,7 @@ vercel.json
 
 ## 🎮 How to Play
 
-- Launch the application, and choose between **Rock, Paper, Scissors** or **Hangman**.
+- Launch the application, and choose between **Rock, Paper, Scissors** , **Hangman**, **Love Calculator** or **Riddles**.
 - The AI will dynamically generate words and play against you!
 - Enjoy a fun and interactive experience with the AI!
 
