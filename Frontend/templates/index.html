@@ -1,0 +1,191 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="icon" href="{{ url_for('static', filename='images/icon.jpeg') }}" type="image/jpeg">
+    <link rel="stylesheet" href="{{ url_for('static',filename ='hangman_style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static',filename ='rock_style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static',filename ='love_style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static',filename ='riddle_style.css')}}" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>AI Games</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <h1>Fun Games</h1>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="left_panel panel">
+            <div class="heading_left heading">ROCK 🪨 PAPER 📄 SCISSOR✂️</div>
+            <div class="top_rock">
+                <div class="ai_name">🤖AI</div>
+                <div class="ai_rock"></div>
+                <div class="user_name">👩🏻‍🦰PLAYER</div>
+                <div class="user_rock">
+                    <div class="rock_item play_items"><div class="indi_item rock">🪨</div></div>
+                    <div class="paper_item play_items"><div class="indi_item paper">📄</div></div>
+                    <div class="scissor_item play_items"><div class="indi_item scissor">✂️</div></div>
+                </div>
+                <button class="restart">RESTART</button>
+            </div>
+            <div class="bottom_rock">
+                <div class="text_rock"></div>
+            </div>
+        </div>
+
+        <div class="right_panel panel">
+            <div class="heading_right heading">HANGMAN</div>
+            <div class="hangman_top">
+                <div class="hangman_images"></div>
+                <div class="display_blanks">
+                    <div class="display_heading">WORD TO GUESS</div>
+                    <div class="blank_space">
+                    </div>
+                </div>
+            </div>
+            <div class="keyboard_section">
+                <div class="1 key">A</div>
+                <div class="2 key">B</div>
+                <div class="3 key">C</div>
+                <div class="4 key">D</div>
+                <div class="5 key">E</div>
+                <div class="6 key">F</div>
+                <div class="7 key">G</div>
+                <div class="8 key">H</div>
+                <div class="9 key">I</div>
+                <div class="10 key">J</div>
+                <div class="11 key">K</div>
+                <div class="12 key">L</div>
+                <div class="13 key">M</div>
+                <div class="14 key">N</div>
+                <div class="15 key">O</div>
+                <div class="16 key">P</div>
+                <div class="17 key">Q</div>
+                <div class="18 key">R</div>
+                <div class="19 key">S</div>
+                <div class="20 key">T</div>
+                <div class="21 key">U</div>
+                <div class="22 key">V</div>
+                <div class="23 key">W</div>
+                <div class="24 key">X</div>
+                <div class="25 key">Y</div>
+                <div class="26 key">Z</div>
+            </div> 
+
+
+            <div class="bottom_section">
+                <div class="light_image"></div>
+                <div class="text_area"></div>
+                <div class="start_button"></div>
+            </div>
+        </div>
+
+    
+        <div class="left_bottom_panel panel">
+            <div class="leftbottomHeading heading">LOVE CALCULATOR 💖</div>
+            <div class="love_main_block">
+                <button class="love_restart">💙 RESTART</button>
+                <div class="names">
+                    <div class="your_name">Your name</div>
+                    <input type="text" class="first_name name">
+                    <div class="love_emoji">🍃</div>
+                    <input type="text" class="last_name name">
+                    <div class="partner_name">Partners Name</div>
+                </div>
+
+
+                <div class="love_circle">
+                    <svg width="150" height="150" viewBox="0 0 36 36" class="circular-chart">
+                        <path class="circle-bg" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" stroke-dasharray="0, 100" d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <text x="18" y="20.35" class="percentage">0%</text>
+                    </svg>
+                </div>
+
+
+            </div>
+            <div class="love_bottom">
+                <div class="love_text"></div>
+                <div class="calculate_love"></div>
+            </div> 
+        </div>
+        
+
+        <div class="right_bottom_panel panel">
+            <div class="riddle_heading heading">MIND BENDERS 🌀💡</div>
+            <div class="riddle_Mainbox">
+                <div class="riddle_box"></div>
+                <div class="commentry"></div>
+                <button class="riddle_restart">RESTART</button>
+                <div class="riddle_circle">
+                    <svg width="150" height="150" viewBox="0 0 36 36" class="circular-chart2">
+                        <path class="circle-bg2"
+                              d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle2" stroke-dasharray="0, 100"
+                              d="M18 2.0845
+                                 a 15.9155 15.9155 0 0 1 0 31.831
+                                 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <text x="18" y="20.35" class="lives">5</text>
+                    </svg>                    
+                </div>
+                
+            </div>
+            <div class="riddle_bottom">
+                <input type="text" class="riddle_text">
+                <div class="riddle_buttons">
+                    <div class="riddle_start button">Riddle</div>
+                    <div class="riddle_check button">Let's check?</div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+    </main>
+    
+
+
+    <footer>
+        <div class="copyright">&copy; Anurupa Karmakar 2024</div>
+        <div class="social_logo">
+            <div class="social1 social"><a target="_blank" href="https://github.com/AnurupaK"
+                    aria-label="GitHub profile">
+                    <i class="fab fa-github"></i> Github
+                </a></div>
+            <div class="social2 social"><a target="_blank"
+                    href="https://www.linkedin.com/in/anurupa-karmakar-a1b82a174/" aria-label="LinkedIn profile">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a></div>
+            <div class="social3 social"><a target="_blank" href="https://x.com/Anurupa_K" aria-label="Twitter profile">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a></div>
+        </div>
+    </footer>
+<!-- <script src="script.js"></script> -->
+<script src="{{ url_for('static', filename='hangman_script.js') }}"></script>
+<script src="{{ url_for('static', filename='rock_script.js') }}"></script>
+<script src="{{ url_for('static', filename='love_script.js') }}"></script>
+<script src="{{ url_for('static', filename='riddle_script.js') }}"></script>
+</body>
+
+</html>

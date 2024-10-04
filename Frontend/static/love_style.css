@@ -1,0 +1,153 @@
+.leftbottomHeading{
+    /* border: 1px solid black; */
+    border-radius: 13px;
+    background-color: rgb(246, 153, 153);
+}
+
+
+.left_bottom_panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.love_main_block{
+    width: 97%;
+    height: 280px;
+    /* border: 1px solid black; */
+    border-radius: 21px;
+    box-shadow: 1px 1px 3px 4px rgb(232, 230, 230) inset;
+    padding: 11px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+.names{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+
+.name{
+    width: 200px;
+    height: 50px;
+    padding: 13px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 1px 1px 2px 3px pink inset;
+    transform: translateY(30px);
+}
+
+.your_name{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    font-size: 1.3rem;
+}
+
+.partner_name{
+    position: absolute;
+    top: 0;
+    right: 13%;
+    font-size: 1.3rem;
+}
+
+.love_emoji{
+   width: 60px;
+   height: 60px;
+   border-radius: 40px;
+   /* border: 1px solid black; */
+   padding: 13px;
+   box-sizing: border-box;
+   box-shadow: 1px 1px 3px 4px rgb(224, 220, 220);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+}
+
+
+.love_restart{
+    position: absolute;
+    bottom: 15;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 1.15rem;
+    background-color: rgb(192, 254, 255);
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    max-height: 250px;
+    transform: translateY(34px);
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 3.8;
+    stroke: #FF69B4; /* Pink love color */
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.6s ease;
+}
+
+.percentage {
+    fill: #666;
+    font-family: Arial, sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+
+
+.love_bottom{
+    width: 97%;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 21px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 6px;
+    box-sizing: border-box;
+    background-color:rgb(246, 153, 153) ;
+}
+
+.love_text{
+    width: 490px;
+    /* border: 1px solid black; */
+    border-radius: 13px;
+    height: 88px;
+    background-color:white;
+    box-shadow: 1px 1px 2px 3px pink inset;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.calculate_love{
+    width: 100px;
+    height: 70px;
+    /* border: 1px solid black; */
+    background-image: url(images/calculate-removebg-preview.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.calculate_love:hover{
+   transform: scale(1.13);
+   cursor: pointer;
+}
