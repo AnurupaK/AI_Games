@@ -27,7 +27,11 @@ def LoveCalculator_v2(first_name, last_name):
         i = str(i)
         percentage = percentage + i
     percentage = int(percentage)
-    return percentage
+
+    if (percenatge>99):
+        return 99
+    else:
+        return percentage
     
 def LoveEmoji(percentage):
     if percentage >= 0 and percentage <= 10:
